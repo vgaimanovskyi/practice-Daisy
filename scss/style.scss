@@ -161,6 +161,7 @@ $bwStepsSecondary: 4px;
     width: 167px;
     line-height: 44px;
     border-radius: 4px;
+    transition: 0.5s;
 
     &:hover {
         background-color: darken($colorSecondary, 10);
@@ -178,6 +179,7 @@ $bwStepsSecondary: 4px;
     line-height: 52px;
     border-radius: 5px;
     border: 3px solid $colorSecondary;
+    transition: 0.5s;
     margin : 0 auto;
     
     @media screen and (max-width: 575px) {
@@ -204,7 +206,8 @@ $bwStepsSecondary: 4px;
     border-radius: 50%;
     border: 1px solid $colorSecondary;
     box-sizing: border-box;
-
+    transition: 0.5s;
+    
     &:hover {
         color: $colorMain;
         background-color: $colorSecondary;        
@@ -383,7 +386,7 @@ $bwStepsSecondary: 4px;
     }
 }
 .header {
-    padding: 290px 0  310px 0;
+    padding: 290px 0  300px 0;
 
     @media screen and (max-width: 969px) {
         padding: 250px 0;
@@ -506,7 +509,8 @@ $bwStepsSecondary: 4px;
         margin: 0 auto 20px auto;
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         position: relative;
-
+        transition: 0.5s;
+        
         @media screen and (min-width: 480px) and (max-width: 767px) {
             margin: 0 5px 0 0;
             float: left;
@@ -526,6 +530,7 @@ $bwStepsSecondary: 4px;
             height: 104px;
             background-color: $colorSecondary;
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            transition: 0.5s;
         }
     }
     &__title {
@@ -1251,6 +1256,7 @@ $bwStepsSecondary: 4px;
         background-color: #565656;
         border-radius: 50%;
         text-decoration: none;
+        transition: 0.3s;
 
         &:hover {
             color: $colorMain;
@@ -1298,6 +1304,7 @@ $bwStepsSecondary: 4px;
         position: absolute;
         width: 31px;
         height: 31px;
+        font-family: $ffTextMain;
         font-size: 26px;
         line-height: 31px;
         color: $colorSecondary;
@@ -1308,7 +1315,7 @@ $bwStepsSecondary: 4px;
         border: 2px solid $colorSecondary;
         box-sizing: border-box;
         user-select: none;
-        transition: 0.6s ease;
+        transition: 0.5s;
         cursor: pointer;
 
         @media screen and (max-width: 767px) {
@@ -1515,6 +1522,7 @@ $bwStepsSecondary: 4px;
     }
 }
 .map-google {
+    display: block;
     width: 100%;
     height: 338px;
     border: 0;
@@ -1527,7 +1535,6 @@ $bwStepsSecondary: 4px;
 .footer {
     background-image: url(../images/bg-footer.jpg);
     padding: 78px 0 43px 0;
-    margin-top: -2px;
 
     @media screen and (max-width: 969px) {
         padding: 50px 0 40px 0;

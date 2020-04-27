@@ -232,6 +232,8 @@ h1, h2 {
   width: 167px;
   line-height: 44px;
   border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .btn:hover {
@@ -250,6 +252,8 @@ h1, h2 {
   line-height: 52px;
   border-radius: 5px;
   border: 3px solid #fc645f;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   margin: 0 auto;
 }
 
@@ -282,6 +286,8 @@ h1, h2 {
   border: 1px solid #fc645f;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .scroll:hover {
@@ -528,7 +534,7 @@ h1, h2 {
 }
 
 .header {
-  padding: 290px 0  310px 0;
+  padding: 290px 0  300px 0;
 }
 
 @media screen and (max-width: 969px) {
@@ -697,6 +703,8 @@ h1, h2 {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
           clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -722,6 +730,8 @@ h1, h2 {
   background-color: #fc645f;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
           clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .skills__title {
@@ -1744,6 +1754,8 @@ h1, h2 {
   background-color: #565656;
   border-radius: 50%;
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .social__link:hover {
@@ -1813,6 +1825,7 @@ h1, h2 {
   position: absolute;
   width: 31px;
   height: 31px;
+  font-family: "PF Encore Sans Pro";
   font-size: 26px;
   line-height: 31px;
   color: #fc645f;
@@ -1827,8 +1840,8 @@ h1, h2 {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -2130,6 +2143,7 @@ h1, h2 {
 }
 
 .map-google {
+  display: block;
   width: 100%;
   height: 338px;
   border: 0;
@@ -2145,7 +2159,6 @@ h1, h2 {
 .footer {
   background-image: url(../images/bg-footer.jpg);
   padding: 78px 0 43px 0;
-  margin-top: -2px;
 }
 
 @media screen and (max-width: 969px) {
